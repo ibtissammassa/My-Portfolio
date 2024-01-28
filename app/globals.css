@@ -9,3 +9,11 @@ body {
   background-color: black;
   color: white;
 }
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.bebasNeue{
+  font-family: var(--font-bebasNeue);
+}
