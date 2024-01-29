@@ -5,7 +5,7 @@ import Image from "next/image";
 
 //components
 import NavBar from "./Components/NavBar";
-import StarsCanvas from "./Components/StarsBackground";
+import StarsCanvas from "./Components/UI/StarsBackground";
 
 //Images
 import GreenLight from "../public/GreenLight.svg";
