@@ -9,7 +9,7 @@ import github from "../public/githubGreen.svg";
 
 export default function Home() {
   return (
-    <main className="lg:h-screen py-32 gap-8 md:gap-0 md:py-0 flex md:flex-row flex-col-reverse items-center justify-around z-30 md:px-24 px-8">
+    <main className="lg:h-screen py-32 gap-7 md:gap-0 md:py-0 flex md:flex-row flex-col-reverse items-center justify-around z-30 md:px-24 px-8">
       <div className="md:w-1/2 flex md:gap-3 gap-4 flex-col z-30 text-center md:text-left">
         <div className="uppercase flex flex-col 2xl:text-9xl md:text-7xl text-5xl bebasNeue">
           <h1>Hi, I am</h1>
