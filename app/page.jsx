@@ -9,27 +9,29 @@ import github from "../public/githubGreen.svg";
 
 export default function Home() {
   return (
-    <main className="h-screen flex items-center justify-around z-30 px-24">
-      <div className="w-1/2 flex gap-3 flex-col z-30">
-        <div className="uppercase flex flex-col text-7xl bebasNeue">
+    <main className="lg:h-screen py-32 gap-8 md:gap-0 md:py-0 flex md:flex-row flex-col-reverse items-center justify-around z-30 md:px-24 px-8">
+      <div className="md:w-1/2 flex md:gap-3 gap-4 flex-col z-30 text-center md:text-left">
+        <div className="uppercase flex flex-col 2xl:text-9xl md:text-7xl text-5xl bebasNeue">
           <h1>Hi, I am</h1>
           <h1>Ibtissam massa.</h1>
         </div>
-        <p className="text-stone-300 mb-5">A Sydney based front-end developer passionate about building accessible and user friendly websites.</p>
-        <div className="flex gap-3">
-          <Link href="#" className="bg-green-500 z-30 hover:bg-green-400 py-4 px-6 uppercase rounded-[100px] justify-center items-center gap-3 inline-flex text-black text-base font-bold">
+        <p className="text-stone-300 md:mb-5 mb-2">A Sydney based front-end developer passionate about building accessible and user friendly websites.</p>
+        <div className="flex flex-col md:flex-row items-center md:gap-3 gap-5">
+          <Link href="#" className="bg-green-500 z-30 hover:bg-green-400 py-3 md:py-4 px-6 uppercase rounded-[100px] justify-center items-center gap-3 inline-flex text-black text-base font-bold">
             <p>Contact me</p>
             <Image src={dot} alt="dot" />
           </Link>
-          <Link href="#" className="z-30 flex items-center hover:bg-neutral-700 bg-neutral-800 justify-center rounded-full px-3.5 py-2">
-            <Image src={linkedin} alt="linkedin" />
-          </Link>
-          <Link href="#" className="z-30 flex items-center hover:bg-neutral-700 bg-neutral-800 justify-center rounded-full px-3.5 py-2">
-            <Image src={github} alt="github" />
-          </Link>
+          <div className="flex gap-3">
+            <Link href="#" className="z-30 flex items-center hover:bg-neutral-700 bg-neutral-800 justify-center rounded-full px-3.5 py-2">
+              <Image src={linkedin} alt="linkedin" />
+            </Link>
+            <Link href="#" className="z-30 flex items-center hover:bg-neutral-700 bg-neutral-800 justify-center rounded-full px-3.5 py-2">
+              <Image src={github} alt="github" />
+            </Link>
+          </div>
         </div>
       </div>
-      <div className="z-20 rounded-full overflow-hidden w-96">
+      <div className="z-20 rounded-full overflow-hidden 2xl:w-auto w-1/3">
         <Image src={me} alt="Me" />
       </div>
     </main>

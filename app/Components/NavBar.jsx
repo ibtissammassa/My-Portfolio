@@ -6,9 +6,9 @@ import downloadIcon from "../../public/download.svg"
 
 function NavBar() {
     return ( 
-        <div className="flex justify-between fixed w-full px-24 py-10 z-20 items-center">
+        <div className="flex justify-between fixed w-full md:px-24 px-7 py-10 z-20 items-center">
             <Link href='/' className="font-bold text-lg">Ibtissam M.</Link>
-            <ul className="flex gap-7 font-light text-sm">
+            <ul className="md:flex gap-7 font-light text-sm hidden">
                 <li className="hover:text-green-400 cursor-pointer">
                     <Link href="#">About</Link>
                 </li>
