@@ -29,7 +29,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${bebasNeue.variable}`}>
-      <body className="relative poppins">
+      <body className="relative poppins overflow-hidden scroll-smooth">
         {/* <Image className="absolute -top-[600px] right-2/4" src={GreenLight} alt="blur"/> */}
         <NavBar/>
         {children}

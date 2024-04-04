@@ -6,14 +6,14 @@ import downloadIcon from "../../public/download.svg"
 
 function NavBar() {
     return ( 
-        <div className="flex justify-between fixed w-full md:px-24 px-7 py-10 z-20 items-center">
+        <div className="flex justify-between fixed w-full md:px-24 px-7 backdrop-blur-sm z-40 py-6 items-center">
             <Link href='/' className="font-bold text-lg">Ibtissam M.</Link>
-            <ul className="md:flex gap-7 font-light text-sm hidden">
+            {/* <ul className="md:flex gap-7 font-light text-sm hidden">
                 <li className="hover:text-green-400 cursor-pointer">
                     <Link href="#">About</Link>
                 </li>
                 <li className="hover:text-green-400 cursor-pointer">
-                    <Link href="#">Tech Stack</Link>
+                    <Link href="#techStack">Tech Stack</Link>
                 </li>
                 <li className="hover:text-green-400 cursor-pointer">
                     <Link href="#">Projects</Link>
@@ -21,8 +21,8 @@ function NavBar() {
                 <li className="hover:text-green-400 cursor-pointer">
                     <Link href="#">Contact</Link>
                 </li>
-            </ul>
-            <Link className="bg-white hover:bg-green-50 inline-flex rounded-lg px-2.5 py-1.5 gap-2" href="/">
+            </ul> */}
+            <Link className="bg-white hover:bg-green-50 inline-flex rounded-lg px-2.5 py-1.5 gap-2" target="_blank" href="/Ibtissam-Massa-Resume.pdf">
                 <p className="text-black text-sm">Resume</p>
                 <Image src={downloadIcon} alt="resume"/>
             </Link>
