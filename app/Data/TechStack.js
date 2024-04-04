@@ -13,7 +13,7 @@ import react from '../../public/techIcons/react.svg'
 import sass from '../../public/techIcons/sass.svg'
 import tailwindcss from '../../public/techIcons/tailwindcss.svg'
 import MySQL from '../../public/techIcons/MySQL.svg'
-import java from '../../public/techIcons/java.svg'
+import java from '../../public/techIcons/Java.svg'
 import Postman from '../../public/techIcons/Postman.svg'
 
 export default [
