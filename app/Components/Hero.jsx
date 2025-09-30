@@ -15,7 +15,7 @@ function Hero() {
           <h1>Hi, I am</h1>
           <h1>Ibtissam massa.</h1>
         </div>
-        <p className="text-stone-300 md:mb-5 mb-2">A software engineering student at ENSA, keen on crafting innovative solutions and embracing the ever-evolving world of technology.</p>
+        <p className="text-stone-300 md:mb-5 mb-2">A junior software engineer from ENSA, keen on crafting innovative solutions and embracing the ever-evolving world of technology.</p>
         <div className="flex flex-col md:flex-row items-center md:gap-3 gap-5">
           <Link href="mailto:ibtissammassa16@gmail.com" target="_blank" className="bg-green-500 z-30 hover:bg-green-400 py-3 md:py-4 px-6 uppercase rounded-[100px] justify-center items-center gap-3 inline-flex text-black text-base font-bold">
             <p>Contact me</p>

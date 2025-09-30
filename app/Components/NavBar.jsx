@@ -22,7 +22,7 @@ function NavBar() {
                     <Link href="#">Contact</Link>
                 </li>
             </ul> */}
-            <Link className="bg-white hover:bg-green-50 inline-flex rounded-lg px-2.5 py-1.5 gap-2" target="_blank" href="/Ibtissam-Massa-Resume.pdf">
+            <Link className="bg-white hover:bg-green-50 inline-flex rounded-lg px-2.5 py-1.5 gap-2" target="_blank" href="/Ibtissam-Massa-Resume-1.pdf">
                 <p className="text-black text-sm">Resume</p>
                 <Image src={downloadIcon} alt="resume"/>
             </Link>
